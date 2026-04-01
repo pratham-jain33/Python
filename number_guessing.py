@@ -16,7 +16,6 @@ else:
     quit()
 
 random_number = random.randint(0, limit)
-print(random_number)
 tries = 3
 guess1 = input("Guess the number: ")
 if int(guess1) == random_number:
